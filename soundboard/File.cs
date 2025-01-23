@@ -8,11 +8,14 @@ namespace soundboard
 {
     internal class File
     {
-        private string _path { get; set; }
-        private string _file__name { get; set; }
-        public File(string path, string file_name) {
+
+        private string _path {  get; set; }
+        private string _fileName { get; set; }
+
+        public File(string path, string fileName)
+        {
             this._path = path;
-            this._file__name = file_name;
+            this._fileName = fileName;
         }
     }
 }
